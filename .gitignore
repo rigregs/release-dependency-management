@@ -6,3 +6,10 @@ pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
+/**/.project
+/**/.classpath
+/**/.DS_Store
+/**/.settings/
+/**/target
+/.settings/
+/.DS_Store

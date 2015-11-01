@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.opnitech.release.services.service.Foo1LocalService" class="com.opnitech.release.services.service.impl.Foo1LocalServiceImpl" />
+	<bean id="com.opnitech.release.services.service.Foo1Service" class="com.opnitech.release.services.service.impl.Foo1ServiceImpl" />
+	<bean id="com.opnitech.release.services.service.persistence.Foo1Persistence" class="com.opnitech.release.services.service.persistence.Foo1PersistenceImpl" parent="basePersistence" />
+</beans>
